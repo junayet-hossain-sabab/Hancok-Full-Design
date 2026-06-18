@@ -1,0 +1,109 @@
+/* ALL COMMON CSS START */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+/* ALL COMMON CSS END */
+
+/* HEADER PART START  */
+.signinItems {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+/* HEADER PART END  */
+
+/* Banner PART START  */
+#bannerPart {
+  background: url(../images/Hancokbanner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-link {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.signinItems .signin i {
+  margin-right: 10px;
+}
+
+.bannerContent h4 {
+  color: #fff;
+  font-size: 27;
+  font-weight: 400;
+  letter-spacing: 10%;
+  font-family: "Oswald", sans-serif;
+}
+.bannerContent h3 {
+  color: #fff;
+  font-size: 60;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 140px;
+}
+.vmbtn {
+  background: #fff;
+  padding: 10px 25px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* Banner PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
