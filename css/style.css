@@ -72,6 +72,7 @@ ol {
   font-weight: 400;
   letter-spacing: 10%;
   font-family: "Oswald", sans-serif;
+  padding-top: 210px;
 }
 
 .bannerContent h3 {
@@ -89,7 +90,7 @@ ol {
   width: 90px;
   content: "";
   position: absolute;
-  right: 25px;
+  right: 40px;
   top: 76px;
 }
 
@@ -108,20 +109,153 @@ ol {
 }
 /* Banner PART END  */
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+/* Rectangle Part  Start  */
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+.rp {
+  position: relative;
+}
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+.rp:before {
+  content: "";
+  background: #ff4655;
+  height: 155px;
+  width: 7px;
+  top: -187px;
+  left: -7px;
+  position: absolute;
+}
+.rp::after {
+  content: "";
+  background: #ff4655;
+  height: 7px;
+  width: 180px;
+  top: -194px;
+  left: -7px;
+  position: absolute;
+}
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+#rectanglePart {
+  background: #121212;
+  padding-top: 210px;
+  padding-bottom: 300px;
+}
+.rtextItem h3 {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  /* margin-bottom: 25px; */
+  letter-spacing: 3%;
+}
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+/* লিস্ট আইটেম স্টাইল */
+.rtextItem ul {
+  left: 0;
+  margin-bottom: 25px;
+}
 
-/* HEADER PART START  */
-/* HEADER PART END  */
+.rtextItem ul li {
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* লাল রঙের টিক মার্ক আইকন */
+.rtextItem ul li i {
+  color: #ff4655;
+  font-size: 18px;
+  /* margin-right: 10px; */
+}
+
+.rtextItem ul li span {
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.rtextItem p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  /* margin-bottom: 35px; */
+  font-family: "Oswald", sans-serif;
+  line-height: 27px;
+  /* padding-top: 25px; */
+}
+
+/* ভিউ মোর বাটন */
+.view-more-btn {
+  background: #1a1a1a; /* ডার্ক বাটন ব্যাকগ্রাউন্ড */
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 30px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: all linear 0.3s;
+}
+
+/* বাটনের ভেতরের ডাবল অ্যারো আইকন */
+.view-more-btn i {
+  font-size: 12px;
+  margin-left: 8px;
+  transition: all linear 0.3s;
+}
+
+/* বাটন হোভার ইফেক্ট */
+.view-more-btn:hover {
+  background: #ff003c; /* হোভার করলে লাল হবে */
+  color: #ffffff;
+}
+
+/* হোভার করলে আইকন সামান্য ডানে সরবে */
+.view-more-btn:hover i {
+  transform: translateX(4px);
+}
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
+
+/* Rectangle Part  Start  */
+/* Rectangle Part  End  */
