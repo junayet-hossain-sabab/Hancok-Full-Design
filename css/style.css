@@ -139,87 +139,114 @@ ol {
   padding-top: 210px;
   padding-bottom: 300px;
 }
-.rtextItem h3 {
-  color: #ffffff;
-  font-family: "Oswald", sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  /* margin-bottom: 25px; */
-  letter-spacing: 3%;
-}
 
-/* লিস্ট আইটেম স্টাইল */
-.rtextItem ul {
-  left: 0;
-  margin-bottom: 25px;
-}
-
-.rtextItem ul li {
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-/* লাল রঙের টিক মার্ক আইকন */
-.rtextItem ul li i {
+.rptxt ul li i {
   color: #ff4655;
-  font-size: 18px;
-  /* margin-right: 10px; */
 }
 
-.rtextItem ul li span {
+.rptxt ul li {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 0px 0px;
+}
+
+.rptxt ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.rptxt h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.rptxt p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.viewmore a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+.viewmore {
+  background: #212121;
+  display: inline-block;
+
+  padding: 10px 25px;
+}
+.box {
+  background: #212121;
+  height: 170px;
+  width: 315;
+  border-radius: 0px 50px 0px 50px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.box h3 {
+  font-size: 60px;
+  font-width: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #ffffff;
+  padding-top: 25px;
+}
+.box h3::after {
+  content: "";
+  background: #ff4655;
+  height: 25px;
+  width: 25px;
+  top: 55px;
+  right: 85px;
+  position: absolute;
+  border-radius: 50px;
+}
+.box p {
+  font-size: 18px;
+  font-width: 200;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  padding-top: 27px;
+  padding-bottom: 115px;
+}
+/* Rectangle Part  End  */
+
+/* Slider Part  Start  */
+
+#sliderPart {
+  background: #191919;
+}
+.sliderImage {
+  padding-top: 115px;
+  padding-bottom: 90px;
+}
+.silderimageTwo {
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 7%;
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
 }
 
-.rtextItem p {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
-  /* margin-bottom: 35px; */
-  font-family: "Oswald", sans-serif;
-  line-height: 27px;
-  /* padding-top: 25px; */
+
+.silderimageTwo h3{
+  padding: 0px 20px;
+
 }
-
-/* ভিউ মোর বাটন */
-.view-more-btn {
-  background: #1a1a1a; /* ডার্ক বাটন ব্যাকগ্রাউন্ড */
-  color: #ffffff;
-  font-family: "Oswald", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 14px 30px;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  transition: all linear 0.3s;
-}
-
-/* বাটনের ভেতরের ডাবল অ্যারো আইকন */
-.view-more-btn i {
-  font-size: 12px;
-  margin-left: 8px;
-  transition: all linear 0.3s;
-}
-
-/* বাটন হোভার ইফেক্ট */
-.view-more-btn:hover {
-  background: #ff003c; /* হোভার করলে লাল হবে */
-  color: #ffffff;
-}
-
-/* হোভার করলে আইকন সামান্য ডানে সরবে */
-.view-more-btn:hover i {
-  transform: translateX(4px);
-}
-/* Rectangle Part  End  */
-
-/* Rectangle Part  Start  */
-/* Rectangle Part  End  */
-
-/* Rectangle Part  Start  */
-/* Rectangle Part  End  */
+/* Slider  Part  End  */
 
 /* Rectangle Part  Start  */
 /* Rectangle Part  End  */
