@@ -232,6 +232,7 @@ ol {
 .sliderImage {
   padding-top: 115px;
   padding-bottom: 90px;
+  position: relative;
 }
 .silderimageTwo {
   font-weight: 600;
@@ -241,11 +242,51 @@ ol {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-
-.silderimageTwo h3{
+.silderimageTwo h3 {
   padding: 0px 20px;
-
+  display: flex;
+  justify-content: flex-end;
+  width: 645px;
+  text-align: right;
+  padding-right: 0px;
+  padding-left: 188px;
+  align-items: right;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 105px;
+  position: relative;
 }
+
+.silderimageTwo h3:after {
+  content: "";
+  background: #ff4655;
+  height: 4px;
+  width: 100px;
+  top: 55px;
+  right: 130px;
+  position: absolute;
+}
+
+.slideBtn {
+  position: absolute;
+  bottom: 90px;
+  right: 0px;
+}
+.slideBtn a{
+  display: block;
+  width: 50px;
+  color: #fff;
+  font-size: 50px;
+  background: transparent;
+}
+.slideBtn a:hover{
+  display: block;
+  width: 50px;
+  color: #ff4655;
+  transition: all linear .4ms;
+}
+
 /* Slider  Part  End  */
 
 /* Rectangle Part  Start  */
